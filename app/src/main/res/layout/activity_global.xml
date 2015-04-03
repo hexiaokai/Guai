@@ -7,6 +7,15 @@
     tools:context="com.o2sports.xiaokai.guai.GlobalActivity">
 
     <TextView android:text="@string/title_activity_global" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/keywordListView"
+        tools:listitem="@layout/list_view_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
